@@ -1,0 +1,214 @@
+# ====================================================================================
+#  Blaze's Shadows  -  English (US) language file
+#  Provides friendly names, tooltips and value labels for the settings menu.
+# ====================================================================================
+
+# ------------------------------------------------------------------- Screens --------
+screen.PROFILE=Quality Profile
+screen.LIGHTING=Lighting
+screen.SHADOWS=Shadows
+screen.AMBIENT_OCCLUSION=Ambient Occlusion
+screen.VOLUMETRICS=Volumetrics
+screen.SKY=Sky & Atmosphere
+screen.WEATHER=Weather
+screen.WATER=Water
+screen.FOG=Fog
+screen.REFLECTIONS=Reflections
+screen.BLOOM=Bloom
+screen.POST=Post Processing
+screen.COLOR=Color Grading
+screen.ANTIALIASING=Anti-Aliasing
+screen.VEGETATION=Vegetation & Wind
+screen.MATERIAL=Materials & PBR
+screen.DIMENSIONS=Nether & End
+screen.PERFORMANCE=Performance
+
+# ------------------------------------------------------------------- Lighting -------
+option.SUNLIGHT_INTENSITY=Sunlight Intensity
+option.SUNLIGHT_INTENSITY.comment=Brightness of direct sunlight.
+option.MOONLIGHT_INTENSITY=Moonlight Intensity
+option.MOONLIGHT_INTENSITY.comment=Brightness of direct moonlight at night.
+option.AMBIENT_INTENSITY=Ambient Intensity
+option.AMBIENT_INTENSITY.comment=Strength of indirect sky/ground ambient light.
+option.BLOCKLIGHT_INTENSITY=Block Light Intensity
+option.BLOCKLIGHT_INTENSITY.comment=Brightness of torches and other light-emitting blocks.
+option.BLOCKLIGHT_TEMPERATURE=Block Light Temperature
+option.BLOCKLIGHT_TEMPERATURE.comment=Colour temperature (Kelvin) of block light. Lower is warmer.
+prefix.BLOCKLIGHT_TEMPERATURE=
+suffix.BLOCKLIGHT_TEMPERATURE=K
+option.COLORED_LIGHTING=Colored Lighting
+option.COLORED_LIGHTING.comment=Tint block light warm and let coloured shadows bleed through.
+option.HANDHELD_LIGHT=Handheld Light
+option.HANDHELD_LIGHT.comment=Held torches/items illuminate nearby surfaces.
+option.HANDHELD_LIGHT_INTENSITY=Handheld Light Strength
+option.GI=Global Illumination
+option.GI.comment=Single-bounce coloured light bleeding for softer, richer shading.
+option.GI_STRENGTH=GI Strength
+
+# ------------------------------------------------------------------- Shadows --------
+option.SHADOW_QUALITY=Shadow Resolution
+option.SHADOW_QUALITY.comment=Shadow map resolution. Higher is sharper but costs VRAM/perf.
+value.SHADOW_QUALITY.0=1024
+value.SHADOW_QUALITY.1=1536
+value.SHADOW_QUALITY.2=2048
+value.SHADOW_QUALITY.3=3072
+value.SHADOW_QUALITY.4=4096
+option.SHADOW_DISTANCE=Shadow Distance
+suffix.SHADOW_DISTANCE=m
+option.SHADOW_FILTER=Soft Shadow Filtering
+option.SHADOW_FILTER.comment=PCF filtering for smooth, non-aliased shadow edges.
+option.SHADOW_SOFTNESS=Shadow Softness
+option.SHADOW_SOFTNESS.comment=Penumbra size multiplier.
+option.CONTACT_HARDENING=Contact Hardening (PCSS)
+option.CONTACT_HARDENING.comment=Shadows are crisp at the contact point and soften with distance.
+option.CONTACT_SHADOWS=Contact Shadows
+option.CONTACT_SHADOWS.comment=Screen-space shadows for tiny/thin geometry the map misses.
+option.COLORED_SHADOWS=Colored Shadows
+option.COLORED_SHADOWS.comment=Stained glass and water tint the light passing through them.
+
+# --------------------------------------------------------------- Ambient Occlusion --
+option.SSAO=Ambient Occlusion (SSAO)
+option.SSAO_SAMPLES=SSAO Samples
+option.SSAO_RADIUS=SSAO Radius
+option.SSAO_STRENGTH=SSAO Strength
+option.SSGI=Screen Space GI
+option.SSGI.comment=Bounce coloured light from nearby surfaces (uses last frame).
+option.SSGI_STRENGTH=SSGI Strength
+
+# ----------------------------------------------------------------- Volumetrics ------
+option.VOLUMETRIC_LIGHT=Volumetric Light
+option.VOLUMETRIC_LIGHT.comment=God rays / light shafts through the shadow map.
+option.VL_SAMPLES=Volumetric Samples
+option.VL_INTENSITY=Volumetric Intensity
+option.VOLUMETRIC_FOG=Volumetric Fog
+option.VL_FOG_DENSITY=Volumetric Fog Density
+
+# --------------------------------------------------------------------- Sky -----------
+option.SKY_BRIGHTNESS=Sky Brightness
+option.SKY_SATURATION=Sky Saturation
+option.CLOUDS=Clouds
+option.CLOUDS_VOLUMETRIC=Volumetric Clouds
+option.CLOUDS_VOLUMETRIC.comment=Ray-marched 3D clouds. Disable for cheaper 2D clouds.
+option.CLOUD_SAMPLES=Cloud Samples
+option.CLOUD_COVERAGE=Cloud Coverage
+option.CLOUD_HEIGHT=Cloud Height
+option.CLOUD_THICKNESS=Cloud Thickness
+option.STARS=Stars
+option.STAR_BRIGHTNESS=Star Brightness
+option.MILKY_WAY=Milky Way
+option.SHOOTING_STARS=Shooting Stars
+option.AURORA=Aurora Borealis
+option.AURORA.comment=Northern lights on clear, cold nights.
+option.RAINBOW=Rainbows
+option.RAINBOW.comment=Appears as rain clears with the sun low in the sky.
+
+# ------------------------------------------------------------------- Weather ---------
+option.RAIN_RIPPLES=Rain Ripples
+option.WET_SURFACES=Wet Surfaces
+
+# --------------------------------------------------------------------- Water ---------
+option.WATER_WAVES=Water Waves
+option.WATER_WAVE_HEIGHT=Wave Height
+option.WATER_REFRACTION=Refraction
+option.WATER_CAUSTICS=Caustics
+option.WATER_FOAM=Foam
+option.WATER_FOG_DENSITY=Underwater Fog Density
+option.WATER_ABSORPTION_R=Water Absorption (Red)
+option.WATER_ABSORPTION_G=Water Absorption (Green)
+option.WATER_ABSORPTION_B=Water Absorption (Blue)
+
+# --------------------------------------------------------------------- Fog -----------
+option.ATMOSPHERIC_FOG=Atmospheric Fog
+option.FOG_DENSITY=Fog Density
+option.CAVE_FOG=Cave Fog
+option.BORDER_FOG=Border Fog
+
+# ---------------------------------------------------------------- Reflections --------
+option.SSR=Screen Space Reflections
+option.SSR_STEPS=SSR Ray Steps
+option.SSR_REFINE=SSR Refinement
+option.ROUGH_REFLECTIONS=Rough Reflections
+option.SKY_REFLECTION_FALLBACK=Sky Reflection Fallback
+
+# --------------------------------------------------------------------- Bloom ---------
+option.BLOOM=Bloom
+option.BLOOM_INTENSITY=Bloom Intensity
+option.BLOOM_RADIUS=Bloom Radius
+
+# ----------------------------------------------------------------- Post Process ------
+option.TONEMAP_OPERATOR=Tonemap Operator
+value.TONEMAP_OPERATOR.0=Reinhard
+value.TONEMAP_OPERATOR.1=ACES Filmic
+value.TONEMAP_OPERATOR.2=Uchimura (GT)
+value.TONEMAP_OPERATOR.3=AgX
+value.TONEMAP_OPERATOR.4=Lottes
+option.AUTO_EXPOSURE=Auto Exposure (Eye Adaptation)
+option.EXPOSURE_SPEED=Adaptation Speed
+option.MANUAL_EXPOSURE=Manual Exposure
+option.MANUAL_EXPOSURE.comment=Used when Auto Exposure is off.
+option.EXPOSURE_MIN=Min Exposure
+option.EXPOSURE_MAX=Max Exposure
+option.VIGNETTE=Vignette
+option.VIGNETTE_STRENGTH=Vignette Strength
+option.SHARPEN=Sharpen
+option.SHARPEN_STRENGTH=Sharpen Strength
+option.CHROMATIC_ABERRATION=Chromatic Aberration
+option.CA_STRENGTH=Aberration Strength
+option.MOTION_BLUR=Motion Blur
+option.MOTION_BLUR_STRENGTH=Motion Blur Strength
+option.MOTION_BLUR_SAMPLES=Motion Blur Samples
+option.FILM_GRAIN=Film Grain
+option.FILM_GRAIN_STRENGTH=Film Grain Strength
+option.DOF=Depth of Field
+option.DOF_STRENGTH=DoF Strength
+
+# ---------------------------------------------------------------- Color Grading ------
+option.BRIGHTNESS=Brightness
+option.CONTRAST=Contrast
+option.SATURATION=Saturation
+option.VIBRANCE=Vibrance
+option.GAMMA=Gamma
+option.WHITE_BALANCE=White Balance
+suffix.WHITE_BALANCE=K
+option.TINT_R=Tint Red
+option.TINT_G=Tint Green
+option.TINT_B=Tint Blue
+
+# --------------------------------------------------------------- Anti-Aliasing -------
+option.TAA=Temporal AA (TAA)
+option.TAA_STRENGTH=TAA Strength
+option.FXAA=FXAA
+option.FXAA.comment=Cheap spatial AA. Use if TAA is disabled.
+
+# ----------------------------------------------------------------- Vegetation --------
+option.WAVING_PLANTS=Waving Plants
+option.WAVING_LEAVES=Waving Leaves
+option.WAVING_VINES=Waving Vines
+option.WAVING_WATER_PLANTS=Waving Kelp & Seagrass
+option.WAVING_WATER=Waving Water
+option.WIND_STRENGTH=Wind Strength
+option.WIND_SPEED=Wind Speed
+
+# ------------------------------------------------------------------- Materials -------
+option.EMISSIVE=Emissive Blocks
+option.EMISSIVE_STRENGTH=Emissive Strength
+option.NORMAL_MAPS=Normal Maps
+option.SPECULAR_MAPS=Specular Maps (labPBR)
+option.PARALLAX_DEPTH=Parallax Depth (POM)
+option.PARALLAX_DEPTH.comment=Requires a resource pack with height maps. 0 disables.
+option.POM_SAMPLES=POM Samples
+
+# ------------------------------------------------------------------ Dimensions -------
+option.NETHER_HEAT_HAZE=Nether Heat Haze
+option.NETHER_SMOKE=Nether Volumetric Smoke
+option.END_PARTICLES=End Particles
+
+# ------------------------------------------------------------------ Performance ------
+option.QUALITY_PRESET=Quality Preset Hint
+value.QUALITY_PRESET.1=Low
+value.QUALITY_PRESET.2=Medium
+value.QUALITY_PRESET.3=High
+value.QUALITY_PRESET.4=Ultra
+value.QUALITY_PRESET.5=Extreme
+option.RENDER_SCALE=Render Scale
+option.HALF_RES_VOLUMETRICS=Half-Res Volumetrics
