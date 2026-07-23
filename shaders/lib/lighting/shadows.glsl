@@ -115,17 +115,17 @@ vec3 getShadows(vec3 scenePos, vec3 worldNormal, float NdotL, float dither) {
     vec3  colored = vec3(0.0);
     for (int i = 0; i < TAPS; i++) {
         vec2 o = (TAPS == 1) ? vec2(0.0) : rm * POISSON16[i] * filterRadius;
-        vec2 uv = shadowPos.xy + o;
+        vec2 suv = shadowPos.xy + o;
 
         // shadowtex1 = opaque only. If the opaque test passes we are fully lit.
-        float opaqueZ = texture(shadowtex1, uv).r;
+        float opaqueZ = texture(shadowtex1, suv).r;
         float litOpaque = step(receiverZ, opaqueZ);
 
 #ifdef COLORED_SHADOWS
         // shadowtex0 includes translucents. Between the two we get a coloured region.
-        float allZ = texture(shadowtex0, uv).r;
+        float allZ = texture(shadowtex0, suv).r;
         float litAll = step(receiverZ, allZ);
-        vec4 tint = texture(shadowcolor0, uv);
+        vec4 tint = texture(shadowcolor0, suv);
         // If blocked by a translucent (litOpaque but !litAll) use its colour.
         vec3 sampleCol = mix(tint.rgb * (1.0 - tint.a), vec3(1.0), litAll);
         colored += mix(vec3(0.0), sampleCol, litOpaque);
