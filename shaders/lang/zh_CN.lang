@@ -1,0 +1,58 @@
+# ====================================================================================
+#  Blaze's Shadows  -  简体中文
+#  设置菜单翻译。未翻译的选项将回退到 en_US。
+# ====================================================================================
+
+screen.PROFILE=画质预设
+screen.LIGHTING=光照
+screen.SHADOWS=阴影
+screen.AMBIENT_OCCLUSION=环境光遮蔽
+screen.VOLUMETRICS=体积效果
+screen.SKY=天空与大气
+screen.WEATHER=天气
+screen.WATER=水
+screen.FOG=雾
+screen.REFLECTIONS=反射
+screen.BLOOM=泛光
+screen.POST=后处理
+screen.COLOR=调色
+screen.ANTIALIASING=抗锯齿
+screen.VEGETATION=植被与风
+screen.MATERIAL=材质与 PBR
+screen.DIMENSIONS=下界与末地
+screen.PERFORMANCE=性能
+
+option.SUNLIGHT_INTENSITY=阳光强度
+option.MOONLIGHT_INTENSITY=月光强度
+option.AMBIENT_INTENSITY=环境光强度
+option.BLOCKLIGHT_INTENSITY=方块光强度
+option.BLOCKLIGHT_TEMPERATURE=方块光色温
+option.COLORED_LIGHTING=彩色光照
+option.GI=全局光照
+option.SHADOW_QUALITY=阴影分辨率
+option.SHADOW_DISTANCE=阴影距离
+option.SHADOW_FILTER=柔和阴影过滤
+option.CONTACT_HARDENING=接触硬化 (PCSS)
+option.COLORED_SHADOWS=彩色阴影
+option.SSAO=环境光遮蔽 (SSAO)
+option.VOLUMETRIC_LIGHT=体积光
+option.CLOUDS=云
+option.CLOUDS_VOLUMETRIC=体积云
+option.STARS=星空
+option.AURORA=极光
+option.RAINBOW=彩虹
+option.WATER_WAVES=水波
+option.WATER_CAUSTICS=焦散
+option.SSR=屏幕空间反射
+option.BLOOM=泛光
+option.BLOOM_INTENSITY=泛光强度
+option.TONEMAP_OPERATOR=色调映射
+option.AUTO_EXPOSURE=自动曝光
+option.BRIGHTNESS=亮度
+option.CONTRAST=对比度
+option.SATURATION=饱和度
+option.GAMMA=伽马
+option.TAA=时间抗锯齿 (TAA)
+option.WIND_STRENGTH=风力
+option.EMISSIVE=自发光方块
+option.RENDER_SCALE=渲染缩放

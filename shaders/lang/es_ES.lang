@@ -1,0 +1,58 @@
+# ====================================================================================
+#  Blaze's Shadows  -  Español (España)
+#  Traducción de la interfaz de ajustes. Las opciones no traducidas usan en_US.
+# ====================================================================================
+
+screen.PROFILE=Perfil de calidad
+screen.LIGHTING=Iluminación
+screen.SHADOWS=Sombras
+screen.AMBIENT_OCCLUSION=Oclusión ambiental
+screen.VOLUMETRICS=Volumétricos
+screen.SKY=Cielo y atmósfera
+screen.WEATHER=Clima
+screen.WATER=Agua
+screen.FOG=Niebla
+screen.REFLECTIONS=Reflejos
+screen.BLOOM=Resplandor (Bloom)
+screen.POST=Postprocesado
+screen.COLOR=Gradación de color
+screen.ANTIALIASING=Suavizado
+screen.VEGETATION=Vegetación y viento
+screen.MATERIAL=Materiales y PBR
+screen.DIMENSIONS=Nether y End
+screen.PERFORMANCE=Rendimiento
+
+option.SUNLIGHT_INTENSITY=Intensidad del sol
+option.MOONLIGHT_INTENSITY=Intensidad de la luna
+option.AMBIENT_INTENSITY=Intensidad ambiental
+option.BLOCKLIGHT_INTENSITY=Intensidad de luz de bloques
+option.BLOCKLIGHT_TEMPERATURE=Temperatura de luz de bloques
+option.COLORED_LIGHTING=Iluminación coloreada
+option.GI=Iluminación global
+option.SHADOW_QUALITY=Resolución de sombras
+option.SHADOW_DISTANCE=Distancia de sombras
+option.SHADOW_FILTER=Filtrado de sombras suave
+option.CONTACT_HARDENING=Endurecimiento por contacto (PCSS)
+option.COLORED_SHADOWS=Sombras coloreadas
+option.SSAO=Oclusión ambiental (SSAO)
+option.VOLUMETRIC_LIGHT=Luz volumétrica
+option.CLOUDS=Nubes
+option.CLOUDS_VOLUMETRIC=Nubes volumétricas
+option.STARS=Estrellas
+option.AURORA=Aurora boreal
+option.RAINBOW=Arcoíris
+option.WATER_WAVES=Olas del agua
+option.WATER_CAUSTICS=Cáusticas
+option.SSR=Reflejos en espacio de pantalla
+option.BLOOM=Resplandor
+option.BLOOM_INTENSITY=Intensidad del resplandor
+option.TONEMAP_OPERATOR=Operador de tono
+option.AUTO_EXPOSURE=Exposición automática
+option.BRIGHTNESS=Brillo
+option.CONTRAST=Contraste
+option.SATURATION=Saturación
+option.GAMMA=Gamma
+option.TAA=Suavizado temporal (TAA)
+option.WIND_STRENGTH=Fuerza del viento
+option.EMISSIVE=Bloques emisivos
+option.RENDER_SCALE=Escala de renderizado

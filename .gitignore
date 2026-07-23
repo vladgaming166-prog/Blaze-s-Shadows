@@ -1,0 +1,11 @@
+# Build output
+BlazesShadows.zip
+*.zip
+
+# Python tooling
+__pycache__/
+*.pyc
+
+# OS cruft
+.DS_Store
+Thumbs.db
