@@ -68,8 +68,10 @@ void main() {
     outHistory = vec4(current, 1.0);
 
     // ---- Auto-exposure ------------------------------------------------------
+    // Geometric-mean luminance over a coarse grid (kept small for performance;
+    // every pixel computes the same value so the store is uniform for `final`).
     float avgLum = 0.0;
-    const int G = 6;
+    const int G = 4;
     for (int y = 0; y < G; y++)
     for (int x = 0; x < G; x++) {
         vec2 g = (vec2(x, y) + 0.5) / float(G);
